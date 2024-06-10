@@ -1,0 +1,62 @@
+/* style.css */
+.root {
+    -fx-background-image: url("menu_background.png");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.button {
+    -fx-background-color: #82868c;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.button-play {
+    -fx-padding: 23px 60px;
+    -fx-font-size: 30px;
+}
+
+.button-quit {
+    -fx-padding: 10px 30px;
+    -fx-font-size: 25px;
+}
+
+.button:hover {
+    -fx-background-color: #73767a;
+}
+
+.labels {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+.label-final {
+    -fx-text-fill: black;
+    -fx-font-family: Arial;
+    -fx-font-size: 30;
+}
+
+.end-screen-layout {
+    -fx-background-color: rgba(0, 0, 0, 0.6);
+}
+
+.end-screen-button {
+    -fx-font-size: 20px;
+    -fx-background-color: #82868c;
+    -fx-border-color: #000;
+    -fx-border-width: 2px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.end-screen-button:hover {
+    -fx-background-color: #73767a;
+}
+
+.end-screen {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+    -fx-padding: 30px;
+}
